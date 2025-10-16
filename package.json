@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "This is a folder for practicing react",
   "scripts": {
-    "start": "parcel index.html",
+    "start": "parcel index.html --https",
     "build": "parcel build index.html ",
     "test": "jest"
   },
