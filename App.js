@@ -1,3 +1,5 @@
+import React from "react";
+import {createRoot} from "react-dom/client";
 const parent1 = React.createElement(
   "div",
   { id: "parent" },
@@ -17,7 +19,7 @@ const parent1 = React.createElement(
 */
 
 const parent=React.createElement("div",{id:"root"},
-    [React.createElement("h1",{id:"head1"},"h1 tag"),React.createElement("h2",{id:"head2"},"h2 tag")]
+    [React.createElement("h1",{id:"head1", key:"h1"},"h1 tag"),React.createElement("h2",{id:"head2",key:"h2"},"h2 tag"),React.createElement("h2",{id:"head3",key:"h3"},"h4 tag")]
 ) // creates Javascript Object
 
 /* 
@@ -26,5 +28,5 @@ const parent=React.createElement("div",{id:"root"},
 <h2 id="head2">h2 tag</h2>
 </div>
 */
-const root = ReactDOM.createRoot(document.getElementById("root"));
+const root = createRoot(document.getElementById("root"));
 root.render(parent); 

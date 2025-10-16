@@ -1,0 +1,27 @@
+{
+  "name": "namaste-react",
+  "version": "1.0.0",
+  "description": "This is a folder for practicing react",
+  "scripts": {
+    "start": "parcel index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ManmohanBoyina/React-Practice.git"
+  },
+  "keywords": [],
+  "author": "Manmohan Boyina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ManmohanBoyina/React-Practice/issues"
+  },
+  "homepage": "https://github.com/ManmohanBoyina/React-Practice#readme",
+  "devDependencies": {
+    "parcel": "^2.16.0"
+  },
+  "dependencies": {
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  }
+}
